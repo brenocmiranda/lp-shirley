@@ -1,0 +1,153 @@
+RewriteEngine On
+
+# ensure https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# upgrade requests
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+# BEGIN HttpHeaders
+# As diretrizes (linhas) entre "BEGIN HttpHeaders" e "END HttpHeaders" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  <IfModule mod_setenvif.c>
+    SetEnvIf Origin "^(.+)$" CORS=$0
+  </IfModule>
+  Header set Access-Control-Allow-Origin %{CORS}e env=CORS
+  Header set Access-Control-Max-Age "7200" env=CORS
+  <FilesMatch "\.(php|html)$">
+    Header always unset X-Powered-By
+    Header unset X-Powered-By
+    Header set X-Frame-Options "DENY"
+    Header set X-XSS-Protection "0"
+    Header set X-DNS-Prefetch-Control "on"
+    Header set Connection "keep-alive"
+    Header set Cache-Control "public, max-age=86400"
+    Header set Strict-Transport-Security "max-age=86400; includeSubDomains; preload" env=HTTPS
+    Header set X-UA-Compatible "IE=edge,chrome=1"
+    Header set Content-Security-Policy-Report-Only "default-src *; script-src 'self' 'unsafe-inline' http: https: wss:; style-src 'self' 'unsafe-inline' http: https: data:; img-src 'self' 'unsafe-inline' http: https: data:; connect-src *; font-src 'self' 'unsafe-inline' http: https: data:; media-src *; report-uri *; child-src *; form-action *; frame-ancestors 'self'; object-src 'none'; frame-src *; worker-src *; manifest-src *;  base-uri 'self' 'strict-dynamic'"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Cross-Origin-Resource-Policy "same-site"
+    Header set Cross-Origin-Opener-Policy "same-origin"
+    Header set Permissions-Policy "accelerometer=*, camera=*, fullscreen=*, geolocation=*, microphone=*, web-share=*"
+  </FilesMatch>
+</IfModule>
+# END HttpHeaders
+# BEGIN HttpHeadersAuth
+# As diretrizes (linhas) entre "BEGIN HttpHeadersAuth" e "END HttpHeadersAuth" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+# END HttpHeadersAuth
+# BEGIN HttpHeadersCompression
+# As diretrizes (linhas) entre "BEGIN HttpHeadersCompression" e "END HttpHeadersCompression" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_filter.c>
+  FilterDeclare HttpHeaders
+<IfModule mod_deflate.c>
+    FilterProvider HttpHeaders DEFLATE "%{HTTP:Accept-Encoding} =~ /gzip/ && %{REQUEST_FILENAME} =~ /.(php|html|js|css|json|xml|svg|txt|bmp|ico|ttf|otf|eot)$/"
+  </IfModule>
+  FilterChain HttpHeaders
+</IfModule>
+# END HttpHeadersCompression
+# BEGIN HttpHeadersContentType
+# As diretrizes (linhas) entre "BEGIN HttpHeadersContentType" e "END HttpHeadersContentType" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_mime.c>
+  AddType application/vnd.ms-fontobject .eot
+  AddType application/x-font-opentype .otf
+  AddType image/svg+xml .svg
+  AddType application/x-font-ttf .ttf
+  AddType application/font-woff .woff
+  AddType application/font-woff2 .woff2
+  AddType application/javascript .jsonp
+	AddType image/webp .webp
+</IfModule>
+# END HttpHeadersContentType
+# BEGIN HttpHeadersExpires
+# As diretrizes (linhas) entre "BEGIN HttpHeadersExpires" e "END HttpHeadersExpires" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 day"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType text/javascript "access plus 1 day"
+  ExpiresByType text/plain "access plus 1 day"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 3 months"
+  ExpiresByType application/x-javascript "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+  ExpiresByType application/x-icon "access plus 3 months"
+</IfModule>
+# END HttpHeadersExpires
+# BEGIN HttpHeadersCookieSecurity
+# As diretrizes (linhas) entre "BEGIN HttpHeadersCookieSecurity" e "END HttpHeadersCookieSecurity" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_headers.c>
+  Header always edit Set-Cookie (.*) "$1;HttpOnly;Secure"
+</IfModule>
+# END HttpHeadersCookieSecurity
+# BEGIN HttpHeadersTiming
+# As diretrizes (linhas) entre "BEGIN HttpHeadersTiming" e "END HttpHeadersTiming" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+# END HttpHeadersTiming
+
+
+# https://bobcares.com/blog/gzip-compression-htaccess/
+
+# Compress HTML, CSS, JavaScript, Text, XML and fonts
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# Remove browser bugs (only needed for really old browsers)
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+Header append Vary User-Agent
+
+# mod zgip
+#mod_gzip_on Yes
+#mod_gzip_dechunk Yes
+#mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+#mod_gzip_item_include mime ^application/x-javascript.*
+#mod_gzip_item_include mime ^text/.*
+#mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+#mod_gzip_item_exclude mime ^image/.*
+#mod_gzip_item_include handler ^cgi-script$
+
+# Ativar o Modpagespeed
+<IfModule pagespeed_module>
+    Modpagespeed On
+</IfModule>
