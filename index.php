@@ -1,6 +1,6 @@
 <?php
 
-	$name = "Shirley da Oncologia | Gestão 2021/2024";
+	$name = "Shirley da Oncologia";
 	$descr = "Mulher cristã e conservadora, há 20 anos realizando trabalhos sociais. Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.";
 	$protocolo = 'http' . (isset ($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on") ? 's' : '');
 	$host = $protocolo . '://' . $_SERVER['HTTP_HOST'];
@@ -53,12 +53,12 @@
 							<h1>Shirey da Oncologia</h1>
 						</div>
 						<div class="box">
-							<h5>Vereadora Shirley da Oncologia. Gestão 2021/2024</h5>
-							<p>Mulher cristã e conservadora, há 20 anos realizando trabalhos sociais.</p>
+							<h5 class="mb-3">Shirley da Oncologia</h5>
+							<p>Mulher cristã e conservadora, há 7 anos realizando trabalhos sociais.</p>
 							<p class="mb-0">Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.</p>
 						</div>
 						<div class="cta">
-							<a href="#" target="_blank">Converse comigo!</a>
+							<a href="https://wa.me/5538999818777?text=Oi%20Shirley%2C%20gostaria%20de%20falar%20com%20voc%C3%AA" target="_blank">Converse comigo!</a>
 						</div>
 						<div class="seta">
 							<a href="#quem-sou">Ir para Quem sou</a>
@@ -72,14 +72,14 @@
 			<section id="quem-sou">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-xl-6 col-lg-6 col-12 py-5">
 							<h2>Quem sou</h2>
-							<p>Nascida em Pirapora, filha de uma forte Mãe, cristã e conservadora, onde atuo como vereadora. Sou uma piraporense que anseia ajudar o seu povo, criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.</p>
-							<p>Sou uma piraporense que anseia ajudar o seu povo, criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.</p>
+							<p>Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.</p>
+							<p>Onde há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
 						</div>
-						<div class="offset-1 col-lg-5">
+						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
 							<a href="#" class="box-video video-trigger" data-bs-toggle="modal" data-bs-target="#modalVideo">
-								<p>Saiba um pouquinho sobre mim</p>
+								<!--<p>Saiba um pouquinho sobre mim</p>-->
 							</a>
 						</div>
 					</div>
@@ -91,7 +91,7 @@
 					<div class="row">
 						<div class="col-12">
 							<h2>Nossas conquistas!</h2>
-							<p><strong>Centro Oncológico em Pirapora!</strong> Com muito trabalho, conseguimos inaugurar o tão sonhado Centro Oncológico, que ajudará muitas famílias e trará muitos benefícios à população do nosso município.</p>
+							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves ,sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
 							<?php 
 								$array = [
 									'Imagem do Centro Oncológico 1' => 'example1.jpg',
@@ -110,7 +110,7 @@
 								<?php } ?>
 							</div>
 							<div class="cta">
-								<a href="#" target="_blank">Acompanhe de perto! <span>Faça parte da minha lista de
+								<a href="https://wa.me/5538999818777?text=Oi%20Shirley%2C%20Gostaria%20de%20participar%20de%20sua%20lista%20de%20transmiss%C3%A3o" target="_blank">Acompanhe de perto! <span>Faça parte da minha lista de
 										transmissão!</span></a>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 					<div class="row mb-5 align-items-center justify-content-center shape-conquista">
 						<div class="col-lg-5">
 							<h5>SAÚDE PARA O POVO!</h5>
-							<p>O TRABALHO É ARDUO, mas com fé em Deus e luta pelos nossos objetivos, conseguimos inaugurar o tão sonhado Centro Oncológico,  que vai atender pessoas de toda região, que precisam de ajuda no tratamento para o câncer.</p>
+							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região,que precisam de ajuda no tratamento para o câncer.</p>
 						</div>
 						<div class="offset-1 col-lg-4">
 							<img src="./assets/images/shape.webp" alt="" loading="lazy">
@@ -130,7 +130,7 @@
 						</div>
 						<div class="offset-1 col-lg-5 text-end">
 							<h5>CENTRO DE ACOLHIMENTO,</h5>
-							<p>criado por mim, ajuda muitas famílias do nosso município, com política de humanização, acolhemos e fornecemos ajuda à familias necessitadas, no qual distribuimos, de graça, leite, fralda, suplementos .</p>
+							<p>Criado por mim, o Setor de Humanização e Acolhimento atende diversas famílias em vulnerabilidade social, com leites, suplementos, fraldas e outros. Dentre eles: Pacientes oncológicos, acamados, crianças, etc.</p>
 						</div>
 					</div>
 				</div>
@@ -217,7 +217,7 @@
 					</div>
 					<div class="row">
 						<div class="cta">
-							<a href="#" target="_blank">Converse comigo no <span>Whatsapp</span>!</a>
+							<a href="https://wa.me/5538999818777?text=Oi%20Shirley%2C%20gostaria%20de%20falar%20com%20voc%C3%AA" target="_blank">Converse comigo no <span>Whatsapp</span>!</a>
 						</div>
 					</div>
 				</div>
@@ -225,13 +225,14 @@
 
 			<section id="iremos-avante">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-6 col-12">
 							<h2>Iremos avante!</h2>
-							<p>Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest.</p>
-							<p>Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest.</p>
+							<p>Bem sei eu que tudo podes, e que nenhum dos teus propósitos pode ser impedido.</p>
+							<p class="fw-bold">Jó 42:2</p>
+							<p>Grandes avanços fizemos na saúde e lutaremos por muito mais.</p>
 						</div>
-						<div class="offset-1 col-lg-5">
+						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
 							<img src="./assets/images/shirley-shape.webp" alt="" loading="lazy">
 						</div>
 					</div>
@@ -242,7 +243,7 @@
 		<section id="quer-falar">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-10">
+					<div class="col-xl-10 col-lg-11 col-12">
 						<h2>Quer falar comigo pessoalmente?</h2>
 						<h3>Me diga seu endereço que vou até você!</h3>
 						<form type="POST">
@@ -277,7 +278,7 @@
 					<button type="button" class="btn-close bg-white rounded" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body p-1">
-					<iframe width="640" height="360" id="iframeVideo" src="https://www.youtube.com/embed/_gVrQa_bvm8" title="Ｓｍｏｋｅ　Ａｎｄ　Ｃｈｉｌｌ 🚬 Lofi Hip Hop 🎵 [ Beats To Smoke / Chill / Relax / Stress Relief ]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube.com/embed/St_vdcuFRHI?autoplay=0&showinfo=0&controls=0&autohide=1" title="Olá, eu sou Shirley da Oncologia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>

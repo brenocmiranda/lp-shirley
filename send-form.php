@@ -12,7 +12,7 @@ $body = 'Informações de contato: <br><br>
         <strong>Telefone: </strong>' . $telefone . '<br>
         <strong>Endereço: </strong>' . $endereco . '<br><br>
         Mensagem recebida às ' . date('d/m/Y H:i:s') . ' através de '. $_SERVER['HTTP_HOST'] . '.';
-$emails = 'brenno_cmm@hotmail.com';
+$emails = 'contato@shirleydaoncologia.com.br';
 $mail = new PHPMailer;
 
 try {

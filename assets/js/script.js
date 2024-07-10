@@ -58,10 +58,10 @@ jQuery( function( $ ){
     });
 
     // Gets the video src from the data-src on each button
-    $(".btn-close").on("click", function (e) {
-        let $videoSrc = $('#iframeVideo').attr('src');
+	$("#modalVideo").on("hide.bs.modal", function (e) {
+		let $videoSrc = $('#iframeVideo').attr('src');
         $("#iframeVideo").attr("src", $videoSrc);
-    });
+	});
 
     // Envio de formulário padrão
 	$( '.submit-btn' ).on( 'click', function( e ){

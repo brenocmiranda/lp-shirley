@@ -90,7 +90,7 @@ h4 {
 	position: relative;
 }
 #banner .container {
-	padding: 50px 0;
+	padding: 65px 0;
 	position: relative;
 }
 #banner .container:before {
@@ -184,7 +184,7 @@ h4 {
 
 /** Quem sou **/
 #quem-sou {
-	padding: 100px 0 50px;
+	padding: 75px 0 50px;
 	position: relative;
 }
 #quem-sou h2 {
@@ -194,6 +194,7 @@ h4 {
 #quem-sou .box-video {
 	background: rgb(119, 68, 64);
 	background: linear-gradient(90deg, rgba(119, 68, 64, 1) 9%, rgba(216, 169, 136, 1) 100%);
+	background: url(../images/video.webp) no-repeat center / cover;
 	padding: 20px;
 	border-radius: 25px;
 	height: 100%;
