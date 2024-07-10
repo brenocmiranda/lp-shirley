@@ -1,7 +1,7 @@
 <?php
 
 	$name = "Shirley da Oncologia";
-	$descr = "Mulher cristã e conservadora, há 20 anos realizando trabalhos sociais. Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.";
+	$descr = "Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.";
 	$protocolo = 'http' . (isset ($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on") ? 's' : '');
 	$host = $protocolo . '://' . $_SERVER['HTTP_HOST'];
 	$url_page = $host . str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']);
