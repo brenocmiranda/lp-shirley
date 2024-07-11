@@ -65,7 +65,7 @@ jQuery( function( $ ){
 		if( match && match[ 7 ].length == 11 ){
 			$.colorbox({
 				iframe: true,
-				href: '//www.youtube.com/embed/' + match[ 7 ] + '?modestbranding=1&autohide=1&showinfo=0&rel=0&cc_load_policy=1',
+				href: '//www.youtube-nocookie.com/embed/' + match[ 7 ] + '?modestbranding=1&showinfo=0&rel=0',
 				innerWidth: 960,
 				innerHeight: 540,
 				maxWidth: '90%',
