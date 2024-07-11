@@ -8,13 +8,13 @@
 	<title>Shirley da Oncologia</title>
 	<meta name="description" content="Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde." />
 
-	<meta property="og:image" content="<?php echo $_SERVER['HTTP_HOST']; ?>/assets/images/share-image.webp" />
+	<meta property="og:image" content="https://brenocarvalho.com.br/shirley/assets/images/share-image.webp" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Shirley da Oncologia" />
-	<meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST']; ?>" />
+	<meta property="og:url" content="https://brenocarvalho.com.br/shirley" />
 	<meta property="og:site_name" content="Shirley da Oncologia" />
 	<meta property="og:description" content="Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde." />
 	<meta name="twitter:card" content="summary_large_image" />
@@ -33,7 +33,6 @@
 
 <body>
 	<main>
-
 		<section id="banner">
 			<div class="container">
 				<div class="row">
@@ -60,8 +59,8 @@
 		<div class="wrap">
 			<section id="quem-sou">
 				<div class="container">
-					<div class="row">
-						<div class="col-xl-6 col-lg-6 col-12 py-5">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-6 col-12">
 							<h2>Quem sou</h2>
 							<p>Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.</p>
 							<p>Onde há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
@@ -81,22 +80,27 @@
 						<div class="col-12">
 							<h2>Nossas conquistas!</h2>
 							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves ,sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
-							<?php 
-								$array = [
-									'Imagem do Centro Oncológico 1' => 'example1.jpg',
-									'Imagem do Centro Oncológico 2' => 'example2.jpg',
-									'Imagem do Centro Oncológico 3' => 'example3.jpg',
-									'Imagem do Centro Oncológico 4' => 'example1.jpg',
-									'Imagem do Centro Oncológico 5' => 'example2.jpg',
-								];
-							?>
 							<div class="slick-centro-oncologico">
-								<?php foreach( $array as $alt => $name ){ ?>
 								<div class="slick-item">
-									<img src="./assets/images/examples/<?php echo $name; ?>"
-										alt="<?php echo $alt; ?>" loading="lazy">
+									<img src="./assets/images/examples/example1.jpg"
+										alt="Imagem do Centro Oncológico 1" loading="lazy">
 								</div>
-								<?php } ?>
+								<div class="slick-item">
+									<img src="./assets/images/examples/example2.jpg"
+										alt="Imagem do Centro Oncológico 1" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/examples/example3.jpg"
+										alt="Imagem do Centro Oncológico 1" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/examples/example1.jpg"
+										alt="Imagem do Centro Oncológico 1" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/examples/example2.jpg"
+										alt="Imagem do Centro Oncológico 1" loading="lazy">
+								</div>
 							</div>
 							<div class="cta">
 								<a href="https://wa.me/5538999818777?text=Oi%20Shirley%2C%20Gostaria%20de%20participar%20de%20sua%20lista%20de%20transmiss%C3%A3o" target="_blank">Acompanhe de perto! <span>Faça parte da minha lista de
@@ -135,8 +139,8 @@
 							<img src="./assets/images/love.webp" alt="" width="160" loading="lazy">		
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-4">
+					<div class="row row-gap-4 justify-content-center">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
 									<img src="./assets/images/examples/example1.jpg"
@@ -147,7 +151,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
 									<img src="./assets/images/examples/example2.jpg"
@@ -158,7 +162,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
 									<img src="./assets/images/examples/example3.jpg"
@@ -256,7 +260,6 @@
 				</div>
 			</div>
 		</section>
-
 	</main>
 
 	<!-- Modal -->
@@ -266,8 +269,11 @@
 				<div class="modal-header border-0">
 					<button type="button" class="btn-close bg-white rounded" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
-				<div class="modal-body p-1">
-					<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube-nocookie.com/embed/St_vdcuFRHI?si=GXvuQDN1zqgrq9H1?&controls=2&showinfo=0&rel=0&modestbranding=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" showinfo="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<div class="modal-body bg-black d-flex justify-content-center rounded p-0">
+					<!--<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube-nocookie.com/embed/St_vdcuFRHI?si=GXvuQDN1zqgrq9H1?&controls=2&showinfo=0&rel=0&modestbranding=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" showinfo="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+					<video id="video" controls="controls">
+						<source src="./assets/videos/video.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 		</div>
