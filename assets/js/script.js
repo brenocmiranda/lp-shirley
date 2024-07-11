@@ -57,10 +57,22 @@ jQuery( function( $ ){
         infinite: false,
     });
 
-    // Gets the video src from the data-src on each button
-	$("#modalVideo").on("hide.bs.modal", function (e) {
-		let $videoSrc = $('#iframeVideo').attr('src');
-        $("#iframeVideo").attr("src", $videoSrc);
+	// Loading iframe Youtube
+	$( 'a[href*="youtube.com"]' ).on( 'click', function( e ){
+		e.preventDefault();
+		let regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
+				match = this.href.match( regExp );
+		if( match && match[ 7 ].length == 11 ){
+			$.colorbox({
+				iframe: true,
+				href: '//www.youtube.com/embed/' + match[ 7 ] + '?autoplay=1',
+				innerWidth: 960,
+				innerHeight: 540,
+				maxWidth: '90%',
+				maxHeight: '90%',
+				fixed: true
+			});
+		}
 	});
 
     // Envio de formulário padrão

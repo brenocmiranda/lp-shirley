@@ -19,15 +19,14 @@
 	<meta property="og:description" content="Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde." />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Shirley da Oncologia" />
-	<meta name="twitter:image" content="./assets/images/share-image.webp" />
+	<meta name="twitter:image" content="https://brenocarvalho.com.br/shirley/assets/images/share-image.webp" />
 	<meta name="twitter:image:width" content="1200" />
 	<meta name="twitter:image:height" content="630" />
 
 	<link rel="shortcut icon" href="./assets/images/favicon.ico" />
+	<link rel="preload" as="image" href="https://brenocarvalho.com.br/shirley/assets/images/background.webp" type="image/webp">
 
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/css/slick.min.css" />
-	<link rel="stylesheet" href="./assets/css/slick-theme.min.css" />
 	<link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
@@ -66,7 +65,7 @@
 							<p>Onde há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
 						</div>
 						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
-							<a href="#" class="box-video video-trigger" data-bs-toggle="modal" data-bs-target="#modalVideo" title="Assitir o vídeo.">
+							<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" class="box-video" title="Assitir o vídeo." rel="noopener">
 								<!--<p>Saiba um pouquinho sobre mim</p>-->
 							</a>
 						</div>
@@ -82,24 +81,24 @@
 							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves ,sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
 							<div class="slick-centro-oncologico">
 								<div class="slick-item">
-									<img src="./assets/images/examples/example1.jpg"
-										alt="Imagem do Centro Oncológico 1" loading="lazy">
+									<img src="./assets/images/examples/example1.webp"
+										alt="Imagem do Centro Oncológico 1" width="1920" height="1814" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example2.jpg"
-										alt="Imagem do Centro Oncológico 1" loading="lazy">
+									<img src="./assets/images/examples/example2.webp"
+										alt="Imagem do Centro Oncológico 1" width="1920" height="1280" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example3.jpg"
-										alt="Imagem do Centro Oncológico 1" loading="lazy">
+									<img src="./assets/images/examples/example3.webp"
+										alt="Imagem do Centro Oncológico 1" width="1920" height="1080" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example1.jpg"
-										alt="Imagem do Centro Oncológico 1" loading="lazy">
+									<img src="./assets/images/examples/example1.webp"
+										alt="Imagem do Centro Oncológico 1" width="1920" height="1814" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example2.jpg"
-										alt="Imagem do Centro Oncológico 1" loading="lazy">
+									<img src="./assets/images/examples/example2.webp"
+										alt="Imagem do Centro Oncológico 1" width="1920" height="1280" loading="lazy">
 								</div>
 							</div>
 							<div class="cta">
@@ -114,12 +113,12 @@
 							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região,que precisam de ajuda no tratamento para o câncer.</p>
 						</div>
 						<div class="offset-1 col-lg-4">
-							<img src="./assets/images/shape.webp" alt="" loading="lazy">
+							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro Oncológico Xanda." loading="lazy">
 						</div>
 					</div>
 					<div class="row align-items-center justify-content-center shape-conquista">
 						<div class="col-lg-4">
-							<img src="./assets/images/shape.webp" alt="" loading="lazy">
+							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro de Acolhimento." loading="lazy">
 						</div>
 						<div class="offset-1 col-lg-5 text-end">
 							<h5>CENTRO DE ACOLHIMENTO,</h5>
@@ -136,14 +135,14 @@
 							<h2>Quem conhece a Shirley diz...</h2>
 						</div>
 						<div class="col-3">
-							<img src="./assets/images/love.webp" alt="" width="160" loading="lazy">		
+							<img src="./assets/images/love.webp" width="430" height="208" alt="Carinha apaixonadas." loading="lazy">		
 						</div>
 					</div>
 					<div class="row row-gap-4 justify-content-center">
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
-									<img src="./assets/images/examples/example1.jpg"
+									<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -154,7 +153,7 @@
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
-									<img src="./assets/images/examples/example2.jpg"
+									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -165,7 +164,7 @@
 						<div class="col-lg-4 col-md-6 col-12">
 							<div class="box-depoimento">
 								<div class="image">
-									<img src="./assets/images/examples/example3.jpg"
+									<img src="./assets/images/examples/example3.webp" width="1920" height="1080"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -178,7 +177,7 @@
 						<div class="slick-depoimentos">
 							<div class="slick-item d-flex gap-3">
 								<div class="image">
-									<img src="./assets/images/examples/example2.jpg"
+									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -188,7 +187,7 @@
 							</div>
 							<div class="slick-item d-flex gap-3">
 								<div class="image">
-									<img src="./assets/images/examples/example2.jpg"
+									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -198,7 +197,7 @@
 							</div>
 							<div class="slick-item d-flex gap-3">
 								<div class="image">
-									<img src="./assets/images/examples/example2.jpg"
+									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
 										alt="" loading="lazy">
 								</div>
 								<div class="text">
@@ -226,7 +225,7 @@
 							<p>Grandes avanços fizemos na saúde e lutaremos por muito mais.</p>
 						</div>
 						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
-							<img src="./assets/images/shirley-shape.webp" alt="" loading="lazy">
+							<img src="./assets/images/shirley-shape.webp" width="923" height="873" alt="" loading="lazy">
 						</div>
 					</div>
 				</div>
@@ -262,25 +261,8 @@
 		</section>
 	</main>
 
-	<!-- Modal -->
-	<div class="modal fade" id="modalVideo" tabindex="-1" aria-labelledby="modalVideo" aria-hidden="true" data-bs-backdrop="static">
-		<div class="modal-dialog modal-lg modal-dialog-centered">
-			<div class="modal-content bg-transparent border-0">
-				<div class="modal-header border-0">
-					<button type="button" class="btn-close bg-white rounded" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body bg-black d-flex justify-content-center rounded p-0">
-					<!--<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube-nocookie.com/embed/St_vdcuFRHI?si=GXvuQDN1zqgrq9H1?&controls=2&showinfo=0&rel=0&modestbranding=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" showinfo="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
-					<video id="video" controls="controls">
-						<source src="./assets/videos/video.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<script src="./assets/js/jquery-3.7.1.min.js"></script>
-	<script src="./assets/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/js/colorbox-min.js"></script>
 	<script src="./assets/js/slick.min.js"></script>
 	<script src="./assets/js/script.js"></script>
 </body>
