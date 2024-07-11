@@ -1,12 +1,3 @@
-<?php
-
-	$name = "Shirley da Oncologia";
-	$descr = "Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.";
-	$protocolo = 'http' . (isset ($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on") ? 's' : '');
-	$host = $protocolo . '://' . $_SERVER['HTTP_HOST'];
-	$url_page = $host . str_replace('/index.php', '', $_SERVER['SCRIPT_NAME']);
-
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -14,31 +5,29 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>
-		<?php echo $name ?>
-	</title>
-	<meta name="description" content="<?php echo $descr; ?>" />
+	<title>Shirley da Oncologia</title>
+	<meta name="description" content="Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde." />
 
-	<meta property="og:image" content="<?php echo $url_page ?>/assets/images/share-image.webp" />
+	<meta property="og:image" content="<?php echo $_SERVER['HTTP_HOST']; ?>/assets/images/share-image.webp" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="pt_BR" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="<?php echo $name ?>" />
-	<meta property="og:url" content="<?php echo $url_page ?>" />
-	<meta property="og:site_name" content="<?php echo $name ?>" />
-	<meta property="og:description" content="<?php echo $descr; ?>" />
+	<meta property="og:title" content="Shirley da Oncologia" />
+	<meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST']; ?>" />
+	<meta property="og:site_name" content="Shirley da Oncologia" />
+	<meta property="og:description" content="Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde." />
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="<?php echo $name ?>" />
-	<meta name="twitter:image" content="<?php echo $url_page ?>/assets/images/share-image.webp" />
+	<meta name="twitter:title" content="Shirley da Oncologia" />
+	<meta name="twitter:image" content="./assets/images/share-image.webp" />
 	<meta name="twitter:image:width" content="1200" />
 	<meta name="twitter:image:height" content="630" />
 
 	<link rel="shortcut icon" href="./assets/images/favicon.ico" />
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/slick.min.css" />
+	<link rel="stylesheet" href="./assets/css/slick-theme.min.css" />
 	<link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
@@ -53,7 +42,7 @@
 							<h1>Shirey da Oncologia</h1>
 						</div>
 						<div class="box">
-							<h5 class="mb-3">Shirley da Oncologia</h5>
+							<p class="mb-3 title-box">Shirley da Oncologia</p>
 							<p>Mulher cristã e conservadora, há 7 anos realizando trabalhos sociais.</p>
 							<p class="mb-0">Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.</p>
 						</div>
@@ -78,7 +67,7 @@
 							<p>Onde há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
 						</div>
 						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
-							<a href="#" class="box-video video-trigger" data-bs-toggle="modal" data-bs-target="#modalVideo">
+							<a href="#" class="box-video video-trigger" data-bs-toggle="modal" data-bs-target="#modalVideo" title="Assitir o vídeo.">
 								<!--<p>Saiba um pouquinho sobre mim</p>-->
 							</a>
 						</div>
@@ -278,15 +267,15 @@
 					<button type="button" class="btn-close bg-white rounded" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body p-1">
-					<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube.com/embed/St_vdcuFRHI?autoplay=0&showinfo=0&controls=0&autohide=1" title="Olá, eu sou Shirley da Oncologia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<iframe width="1236" height="695" id="iframeVideo" src="https://www.youtube-nocookie.com/embed/St_vdcuFRHI?si=GXvuQDN1zqgrq9H1?&controls=2&showinfo=0&rel=0&modestbranding=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" showinfo="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="./assets/js/jquery-3.7.1.min.js"></script>
+	<script src="./assets/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/js/slick.min.js"></script>
 	<script src="./assets/js/script.js"></script>
 </body>
 
