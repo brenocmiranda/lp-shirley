@@ -706,7 +706,6 @@ h4 {
 	#nossas-conquistas .cta a {
 		text-align: left;
 		margin-bottom: 65px;
-		max-width: 305px;
 	}
 	#nossas-conquistas .slick-centro-oncologico {
 		margin-bottom: 110px;
@@ -733,6 +732,9 @@ h4 {
 	}
 	#quem-conhece .slick-depoimentos-videos .box-depoimento {
 		height: 340px;
+	}
+	#quem-conhece .slick-depoimentos-videos .slick-dots {
+		display: none !important;
 	}
 	#quem-conhece .slick-depoimentos-texto .slick-item {
 		flex-direction: column;
