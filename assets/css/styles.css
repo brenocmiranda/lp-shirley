@@ -671,7 +671,7 @@ h4 {
 		font-size: 22px;
 	}
 	#banner .container:before {
-		background-position: 260px top;
+		background-position: 250px top;
 	}
 	#quem-sou h2 {
 		text-align: center;
@@ -679,9 +679,19 @@ h4 {
 	#quem-sou p {
 		text-align: center;
 	}
+	#nossas-conquistas {
+		padding: 25px 0;
+	}
+	#nossas-conquistas .row {
+		text-align: center;
+	}
 	#nossas-conquistas .cta a {
 		text-align: left;
 		font-size: 20px;
+		margin-bottom: 65px;
+	}
+	#nossas-conquistas .slick-centro-oncologico {
+		margin-bottom: 110px;
 	}
 	#nossas-conquistas .slick-centro-oncologico .slick-item {
 		height: 400px;
@@ -689,15 +699,33 @@ h4 {
 	#nossas-conquistas .slick-centro-oncologico .slick-item img {
 		border-radius: 20px;
 	}
-	#nossas-conquistas .row {
-		text-align: center;
+	#nossas-conquistas .slick-prev:before,
+	#nossas-conquistas .slick-next:before {
+		background-color: #8f534e;
+		border-radius: 50%;
+		background-size: 12px;
+		padding: 17px;
+	}
+	#nossas-conquistas .slick-prev {
+		bottom: -50px;
+		top: initial;
+		left: 35%;
+	}
+	#nossas-conquistas .slick-next {
+		bottom: -50px;
+		top: initial;
+		right: 40%;
 	}
 	#nossas-conquistas .row:nth-child(2) {
 		flex-direction: column-reverse;
 	}
+	
 	#nossas-conquistas .shape-conquista img {
 		max-width: 300px;
 		width: 100%;
+	}
+	#quem-conhece {
+		padding: 25px 0;
 	}
 	#quem-conhece h2 {
 		text-align: center;
@@ -717,6 +745,21 @@ h4 {
 	}
 	#quem-conhece .cta a {
 		font-size: 22px;
+	}
+	#quem-conhece .box-depoimento {
+		height: 380px;
+	}
+	#quem-conhece .box-depoimento:after {
+		background-color: #8f534e;
+		border-radius: 50%;
+		background-size: 18px;
+		padding: 17px;
+	}
+	#quem-conhece .box-depoimento:hover .image {
+		height: 180px;
+	}
+	#quem-conhece .box-depoimento .text {
+		text-align: center;
 	}
 	#iremos-avante h2 {
 		text-align: center;
@@ -769,14 +812,15 @@ h4 {
 		height: 300px;
 	}
 	#nossas-conquistas .cta a {
-		padding: 20px;
-		text-align: center;
+		padding-left: 90px;
+        text-align: left;
+        font-size: 17px;
 	}
 	#nossas-conquistas .cta a:before {
-		left: 0;
-        position: relative;
-        display: block;
-		margin-bottom: 20px;
+		left: 25px;
+	}
+	#quer-falar {
+		padding: 75px 0;
 	}
 	#quer-falar h3 {
 		max-width: 285px;
