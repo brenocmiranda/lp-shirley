@@ -35,7 +35,7 @@
 		<section id="banner">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5">
+					<div class="col-lg-5 col-md-7 col-sm-9 col-12">
 						<div class="title">
 							<h1>Shirey da Oncologia</h1>
 						</div>
@@ -107,20 +107,20 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mb-5 align-items-center justify-content-center shape-conquista">
-						<div class="col-lg-5">
+					<div class="row mb-5 align-items-center justify-content-center shape-conquista row-gap-5">
+						<div class="col-lg-5 col-md-6 col-12">
 							<h5>SAÚDE PARA O POVO!</h5>
 							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região,que precisam de ajuda no tratamento para o câncer.</p>
 						</div>
-						<div class="offset-1 col-lg-4">
+						<div class="offset-lg-1 col-lg-4 col-md-6">
 							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro Oncológico Xanda." loading="lazy">
 						</div>
 					</div>
-					<div class="row align-items-center justify-content-center shape-conquista">
-						<div class="col-lg-4">
+					<div class="row align-items-center justify-content-center shape-conquista row-gap-5">
+						<div class="col-lg-4 col-md-6 col-12">
 							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro de Acolhimento." loading="lazy">
 						</div>
-						<div class="offset-1 col-lg-5 text-end">
+						<div class="offset-lg-1 col-lg-5 col-md-6 text-md-end">
 							<h5>CENTRO DE ACOLHIMENTO,</h5>
 							<p>Criado por mim, o Setor de Humanização e Acolhimento atende diversas famílias em vulnerabilidade social, com leites, suplementos, fraldas e outros. Dentre eles: Pacientes oncológicos, acamados, crianças, etc.</p>
 						</div>
@@ -130,11 +130,11 @@
 
 			<section id="quem-conhece">
 				<div class="container">
-					<div class="row">
-						<div class="col-6">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-8 col-12">
 							<h2>Quem conhece a Shirley diz...</h2>
 						</div>
-						<div class="col-3">
+						<div class="col-md-3 col-12">
 							<img src="./assets/images/love.webp" width="430" height="208" alt="Carinha apaixonadas." loading="lazy">		
 						</div>
 					</div>
@@ -174,35 +174,37 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="slick-depoimentos">
-							<div class="slick-item d-flex gap-3">
-								<div class="image">
-									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
-										alt="" loading="lazy">
+						<div class="col-12">
+							<div class="slick-depoimentos">
+								<div class="slick-item d-flex gap-3">
+									<div class="image">
+										<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
+											alt="" loading="lazy">
+									</div>
+									<div class="text">
+										<h6>Fabiana Mota</h6>
+										<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
+									</div>
 								</div>
-								<div class="text">
-									<h6>Fabiana Mota</h6>
-									<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
+								<div class="slick-item d-flex gap-3">
+									<div class="image">
+										<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
+											alt="" loading="lazy">
+									</div>
+									<div class="text">
+										<h6>Fabiana Mota</h6>
+										<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
+									</div>
 								</div>
-							</div>
-							<div class="slick-item d-flex gap-3">
-								<div class="image">
-									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
-										alt="" loading="lazy">
-								</div>
-								<div class="text">
-									<h6>Fabiana Mota</h6>
-									<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
-								</div>
-							</div>
-							<div class="slick-item d-flex gap-3">
-								<div class="image">
-									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
-										alt="" loading="lazy">
-								</div>
-								<div class="text">
-									<h6>Fabiana Mota</h6>
-									<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
+								<div class="slick-item d-flex gap-3">
+									<div class="image">
+										<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
+											alt="" loading="lazy">
+									</div>
+									<div class="text">
+										<h6>Fabiana Mota</h6>
+										<p>Uma pessoas maravilhosa que tive o privilégio de conhecer! Tenho um carinho e uma imensa gratidão a você minha linda! A pessoas mais humana que conheci na vida!</p>
+									</div>
 								</div>
 							</div>
 						</div>
