@@ -24,8 +24,9 @@
 	<meta name="twitter:image:height" content="630" />
 
 	<link rel="shortcut icon" href="./assets/images/favicon.ico" />
-	<link rel="preload" as="image" href="https://brenocarvalho.com.br/shirley/assets/images/background.webp" type="image/webp">
-
+	<link rel="preload" as="image" href="./assets/images/background.webp" type="image/webp">
+	<link rel="preload" as="image" href="./assets/images/shirley.webp" type="image/webp">
+	
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
