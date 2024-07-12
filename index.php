@@ -41,8 +41,8 @@
 						</div>
 						<div class="box">
 							<p class="mb-3 title-box">Shirley da Oncologia</p>
-							<p>Mulher cristã e conservadora, há 7 anos realizando trabalhos sociais.</p>
-							<p class="mb-0">Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora.</p>
+							<p>Mulher cristã e conservadora, há mais de 7 anos realizando trabalhos sociais.</p>
+							<p class="mb-0">"Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora."</p>
 						</div>
 						<div class="cta">
 							<a href="https://wa.me/5538999818777?text=Oi%20Shirley%2C%20gostaria%20de%20falar%20com%20voc%C3%AA" target="_blank">Converse comigo!</a>
@@ -138,44 +138,33 @@
 							<img src="./assets/images/love.webp" width="430" height="208" alt="Carinha apaixonadas." loading="lazy">		
 						</div>
 					</div>
-					<div class="row row-gap-4 justify-content-center">
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="box-depoimento">
-								<div class="image">
-									<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
-										alt="" loading="lazy">
+					<div class="row">
+						<div class="col-12">
+							<div class="slick-depoimentos-videos">
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
+										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+											alt="" loading="lazy">
+									</a>
 								</div>
-								<div class="text">
-									Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest.
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
+										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+											alt="" loading="lazy">
+									</a>
 								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="box-depoimento">
-								<div class="image">
-									<img src="./assets/images/examples/example2.webp" width="1920" height="1280"
-										alt="" loading="lazy">
-								</div>
-								<div class="text">
-									Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest. 
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<div class="box-depoimento">
-								<div class="image">
-									<img src="./assets/images/examples/example3.webp" width="1920" height="1080"
-										alt="" loading="lazy">
-								</div>
-								<div class="text">
-									Body text for whatever you’d like to suggest. Add main takeaway points, quotes, anecdotes, or even a very very short story. Body text for whatever you’d like to suggest.
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
+										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+											alt="" loading="lazy">
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-12">
-							<div class="slick-depoimentos">
+							<div class="slick-depoimentos-texto">
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
 										<img src="./assets/images/examples/example2.webp" width="1920" height="1280"

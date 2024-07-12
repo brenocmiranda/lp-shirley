@@ -12,7 +12,8 @@ $body = 'Informações de contato: <br><br>
         <strong>Telefone: </strong>' . $telefone . '<br>
         <strong>Endereço: </strong>' . $endereco . '<br><br>
         Mensagem recebida às ' . date('d/m/Y H:i:s') . ' através de '. $_SERVER['HTTP_HOST'] . '.';
-$emails = 'contato@shirleydaoncologia.com.br';
+$emails = 'brenno_cmm@hotmail.com';
+//$emails = 'contato@shirleydaoncologia.com.br';
 $mail = new PHPMailer;
 
 try {
@@ -41,7 +42,7 @@ try {
     */
 
     $headers[] = 'MIME-Version: 1.0';
-    $headers[] = 'Content-type: text/html; charset=iso-8859-1';
+    $headers[] = 'Content-type: text/html; charset=UTF-8';
 
     $send = mail(
         $emails,

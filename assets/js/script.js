@@ -49,14 +49,40 @@ jQuery( function( $ ){
         infinite: false,
     });
 
-    // Slick Depoimentos
-    $(".slick-depoimentos").slick({
+	// Slick Depoimentos Vídeos
+    $(".slick-depoimentos-videos").slick({
+        slidesToShow: 3,
+        arrows: false,
+        dots: false,
+        infinite: false,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					arrows: true,
+        			dots: true,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					arrows: true,
+        			dots: true,
+				}
+			}
+		]
+    });
+
+    // Slick Depoimentos Textos
+    $(".slick-depoimentos-texto").slick({
         slidesToShow: 1,
         arrows: true,
         dots: true,
         infinite: false,
     });
-
+	
 	// Loading iframe Youtube
 	$( 'a[href*="youtube.com"]' ).on( 'click', function( e ){
 		e.preventDefault();
