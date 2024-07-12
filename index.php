@@ -149,13 +149,13 @@
 								</div>
 								<div class="box-depoimento">
 									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
-										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+										<img src="./assets/images/examples/example2.webp" width="1920" height="1814"
 											alt="" loading="lazy">
 									</a>
 								</div>
 								<div class="box-depoimento">
 									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
-										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+										<img src="./assets/images/examples/example3.webp" width="1920" height="1814"
 											alt="" loading="lazy">
 									</a>
 								</div>
