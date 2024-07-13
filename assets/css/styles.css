@@ -817,6 +817,9 @@ h4 {
 	#nossas-conquistas .slick-centro-oncologico .slick-item {
 		height: 300px;
 	}
+	#quem-sou {
+		padding: 50px 0;
+	}
 	#nossas-conquistas .cta a {
 		padding-left: 90px !important;
         text-align: left;
