@@ -29,9 +29,41 @@
 	
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/css/styles.css" />
+
+	<!-- Meta Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '839184691491562');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=839184691491562&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WQDTNN7Q');</script>
+	<!-- End Google Tag Manager -->
+
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQDTNN7Q"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<main>
 		<section id="banner">
 			<div class="container">
@@ -82,24 +114,36 @@
 							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves ,sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
 							<div class="slick-centro-oncologico">
 								<div class="slick-item">
-									<img src="./assets/images/examples/example1.webp"
-										alt="Imagem do Centro Oncológico 1" width="1920" height="1814" loading="lazy">
+									<img src="./assets/images/galeria/01.webp"
+										alt="" width="1280" height="1814" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example2.webp"
-										alt="Imagem do Centro Oncológico 1" width="1920" height="1280" loading="lazy">
+									<img src="./assets/images/galeria/02.webp"
+										alt="" width="1280" height="1280" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example3.webp"
-										alt="Imagem do Centro Oncológico 1" width="1920" height="1080" loading="lazy">
+									<img src="./assets/images/galeria/03.webp"
+										alt="" width="1280" height="1080" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example1.webp"
-										alt="Imagem do Centro Oncológico 1" width="1920" height="1814" loading="lazy">
+									<img src="./assets/images/galeria/04.webp"
+										alt="" width="1280" height="1814" loading="lazy">
 								</div>
 								<div class="slick-item">
-									<img src="./assets/images/examples/example2.webp"
-										alt="Imagem do Centro Oncológico 1" width="1920" height="1280" loading="lazy">
+									<img src="./assets/images/galeria/05.webp"
+										alt="" width="1280" height="1280" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/galeria/06.webp"
+										alt="" width="1280" height="1280" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/galeria/07.webp"
+										alt="" width="1280" height="1280" loading="lazy">
+								</div>
+								<div class="slick-item">
+									<img src="./assets/images/galeria/08.webp"
+										alt="" width="1280" height="1280" loading="lazy">
 								</div>
 							</div>
 							<div class="cta">
@@ -114,12 +158,12 @@
 							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região,que precisam de ajuda no tratamento para o câncer.</p>
 						</div>
 						<div class="offset-lg-1 col-lg-4 col-md-6">
-							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro Oncológico Xanda." loading="lazy">
+							<img src="./assets/images/shape1.webp" width="838" height="911" alt="Imagem do Centro Oncológico Xanda." loading="lazy">
 						</div>
 					</div>
 					<div class="row align-items-center justify-content-center shape-conquista row-gap-5">
 						<div class="col-lg-4 col-md-6 col-12">
-							<img src="./assets/images/shape.webp" width="838" height="911" alt="Imagem do Centro de Acolhimento." loading="lazy">
+							<img src="./assets/images/shape2.webp" width="838" height="911" alt="Imagem do Centro de Acolhimento." loading="lazy">
 						</div>
 						<div class="offset-lg-1 col-lg-5 col-md-6 text-md-end">
 							<h5>CENTRO DE ACOLHIMENTO,</h5>
