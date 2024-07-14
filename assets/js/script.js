@@ -81,6 +81,7 @@ jQuery( function( $ ){
         arrows: true,
         dots: true,
         infinite: false,
+		adaptiveHeight: true
     });
 	
 	// Loading iframe Youtube

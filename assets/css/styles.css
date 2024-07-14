@@ -751,6 +751,16 @@ h4 {
 	#quem-conhece .slick-depoimentos-texto .slick-next {
 		bottom: -40px !important;
 	}
+	#quem-conhece .slick-depoimentos-texto .slick-dots li button:before {
+		font-size: 10px;
+	}
+	#quem-conhece .slick-depoimentos-texto .slick-dots li {
+		margin: 0 3px;
+		width: 8px;
+	}
+	#quem-conhece .slick-depoimentos-texto .slick-dots li button:before {
+		width: 8px;
+	}
 	#quem-conhece .row:nth-child(1) img {
 		max-width: 160px;
 		width: 100%;
