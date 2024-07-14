@@ -443,6 +443,9 @@ h4 {
 #quem-conhece .slick-depoimentos-texto {
 	margin: 50px 0;
 }
+#quem-conhece .slick-depoimentos-texto h6 {
+	word-break: break-all;
+}
 #quem-conhece .slick-depoimentos-texto .slick-item {
 	border-radius: 40px;
 	box-shadow: 4px 4px 20px 0px #00000040;
