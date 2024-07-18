@@ -7,36 +7,9 @@ jQuery( function( $ ){
 	if( $('.loading').length ){
 		setTimeout(() => {
 			$('.loading').fadeOut();
-		}, 3000);
+		}, 1000);
 	}
 
-	/**
-	 * Loading lib in GTM (3s)
-	*/
-	if (window.ID_GTM) {
-		document.addEventListener('DOMContentLoaded', () => {
-			setTimeout(initGTM, 3000);
-		});
-		$(document).on('scroll mousemove touchstart click', initGTMOnEvent);
-	}
-	function initGTMOnEvent(event) {
-		initGTM();
-		event.currentTarget.removeEventListener(event.type, initGTMOnEvent); // remove the event listener that got triggered
-	}
-	function initGTM() {
-		if (window.gtmDidInit) {
-			return false;
-		}
-		window.gtmDidInit = true; // flag to ensure script does not get added to DOM more than once.
-		$.getScript('https://www.googletagmanager.com/gtm.js?id=' + window.ID_GTM, function(){
-			dataLayer.push({ event: 'gtm.js', 'gtm.start': new Date().getTime(), 'gtm.uniqueEventId': 0 });
-		});
-
-		/* Meta Pixel Code */
-		!function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '839184691491562'); fbq('track', 'PageView');
-
-		console.log('Init GTM in Pixel');
-	}
     function sendEmail( data ) {
 		return new Promise((resolve, reject) => {
 			let $mail_data = data;
