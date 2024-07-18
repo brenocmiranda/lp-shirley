@@ -52,9 +52,9 @@ jQuery( function( $ ){
 	// Slick Depoimentos Vídeos
     $(".slick-depoimentos-videos").slick({
         slidesToShow: 3,
-        arrows: false,
-        dots: false,
-        infinite: false,
+        arrows: true,
+        dots: true,
+        infinite: true,
 		responsive: [
 			{
 				breakpoint: 992,
@@ -80,7 +80,7 @@ jQuery( function( $ ){
         slidesToShow: 1,
         arrows: true,
         dots: true,
-        infinite: false,
+        infinite: true,
 		adaptiveHeight: true,
 		fade: true
     });
@@ -93,7 +93,7 @@ jQuery( function( $ ){
 		if( match && match[ 7 ].length == 11 ){
 			$.colorbox({
 				iframe: true,
-				href: '//www.youtube-nocookie.com/embed/' + match[ 7 ] + '?modestbranding=1&showinfo=0&rel=0',
+				href: '//www.youtube-nocookie.com/embed/' + match[ 7 ] + '?autoplay=1&modestbranding=1&showinfo=0&rel=0',
 				innerWidth: 960,
 				innerHeight: 540,
 				maxWidth: '90%',

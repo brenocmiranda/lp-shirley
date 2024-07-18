@@ -74,7 +74,7 @@
 						</div>
 						<div class="box">
 							<p class="mb-3 title-box">Shirley da Oncologia</p>
-							<p>Mulher cristã e conservadora, há mais de 7 anos realizando trabalhos sociais.</p>
+							<p>Mulher cristã e conservadora, há mais de 20 anos realizando trabalhos sociais.</p>
 							<p class="mb-0">"Criei o setor de humanização e Acolhimento aos pacientes Oncológicos na Secretaria Municipal de Saúde de Pirapora."</p>
 						</div>
 						<div class="cta">
@@ -94,8 +94,9 @@
 					<div class="row align-items-center">
 						<div class="col-xl-6 col-lg-6 col-12">
 							<h2>Quem sou</h2>
-							<p>Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora. Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.</p>
-							<p>Onde há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
+							<p>Nascida em Pirapora, filha de uma forte mãe, sou cristã e conservadora.</p> 
+							<p>Sou uma piraporense que anseia ajudar seu povo, criei o setor de humanização e acolhimento no setor aos pacientes oncológicos na Secretária Municipal de Saúde.</p>
+							<p>Há a mais de 7 anos luto pela instalação do Centro de Tratamento Oncológico que atenderá Pirapora e toda Microrregião.</p>
 						</div>
 						<div class="offset-xl-1 col-xl-5 col-lg-6 col-12">
 							<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" class="box-video" title="Assitir o vídeo." rel="noopener">
@@ -111,7 +112,7 @@
 					<div class="row">
 						<div class="col-12">
 							<h2>Nossas conquistas!</h2>
-							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves ,sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
+							<p class="text-center">Com muito trabalho e oração conseguimos inaugurar o tão sonhado Centro de Tratamento Oncológico Alexandra Rezende Moreira Gonçalves, sendo autora do Anteprojeto de Lei que homenageou esta grande mulher. Que ajudará muitas famílias e trará muitos benefícios à população de nosso município e região.</p>
 							<div class="slick-centro-oncologico">
 								<div class="slick-item">
 									<img src="./assets/images/galeria/01.webp"
@@ -155,7 +156,7 @@
 					<div class="row mb-5 align-items-center justify-content-center shape-conquista row-gap-5">
 						<div class="col-lg-5 col-md-6 col-12">
 							<h5>SAÚDE PARA O POVO!</h5>
-							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região,que precisam de ajuda no tratamento para o câncer.</p>
+							<p>O trabalho é árduo, mas com fé em Deus e lutando pelos nossos objetivos, conseguimos o tão sonhado <strong>Centro Oncológico Xanda</strong> que vai atender pessoas de toda região, que precisam de ajuda no tratamento para o câncer.</p>
 						</div>
 						<div class="offset-lg-1 col-lg-4 col-md-6">
 							<img src="./assets/images/shape1.webp" width="838" height="911" alt="Imagem do Centro Oncológico Xanda." loading="lazy">
@@ -187,20 +188,44 @@
 						<div class="col-12">
 							<div class="slick-depoimentos-videos">
 								<div class="box-depoimento">
-									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
-										<img src="./assets/images/examples/example1.webp" width="1920" height="1814"
+									<a href="https://www.youtube.com/watch?v=8OYNGMswHhY" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/01.webp" width="400" height="866"
 											alt="" loading="lazy">
 									</a>
 								</div>
 								<div class="box-depoimento">
-									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
-										<img src="./assets/images/examples/example2.webp" width="1920" height="1814"
+									<a href="https://www.youtube.com/watch?v=8ViWoPd7Y-k" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/02.webp" width="400" height="866"
 											alt="" loading="lazy">
 									</a>
 								</div>
 								<div class="box-depoimento">
-									<a href="https://www.youtube.com/watch?v=St_vdcuFRHI" title="Assitir o depoimento de ." rel="noopener">
-										<img src="./assets/images/examples/example3.webp" width="1920" height="1814"
+									<a href="https://www.youtube.com/watch?v=q-v-XkTti68" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/03.webp" width="400" height="866"
+											alt="" loading="lazy">
+									</a>
+								</div>
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=IK9WzvBnWYM" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/04.webp" width="400" height="866"
+											alt="" loading="lazy">
+									</a>
+								</div>
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=jzNJGlo888w" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/05.webp" width="400" height="866"
+											alt="" loading="lazy">
+									</a>
+								</div>
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=K4dJIBTm72s" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/06.webp" width="400" height="866"
+											alt="" loading="lazy">
+									</a>
+								</div>
+								<div class="box-depoimento">
+									<a href="https://www.youtube.com/watch?v=mvkbe4kYLco" title="Assitir o depoimento." rel="noopener">
+										<img src="./assets/images/depoimentos/videos/07.webp" width="400" height="866"
 											alt="" loading="lazy">
 									</a>
 								</div>
@@ -212,7 +237,7 @@
 							<div class="slick-depoimentos-texto">
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/peixepiraporense.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/peixepiraporense.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -226,7 +251,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/paurogeriopirapora.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/paurogeriopirapora.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -240,7 +265,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/ane.karoline_prado.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/ane.karoline_prado.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -254,7 +279,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/taylabeatriz.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/taylabeatriz.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -268,7 +293,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/anjaosorio.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/anjaosorio.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -282,7 +307,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/fabimota._.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/fabimota._.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -296,7 +321,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/cakes.saborreal.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/cakes.saborreal.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -310,7 +335,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/rejane.carlos.98.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/rejane.carlos.98.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -324,7 +349,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/philipeeleal.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/philipeeleal.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -338,7 +363,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/cassiacorgozinho.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/cassiacorgozinho.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -352,7 +377,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/meirafarley.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/meirafarley.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -366,7 +391,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/eu_ray_ramos_montaner_oficial.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/eu_ray_ramos_montaner_oficial.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -380,7 +405,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/kelcimarafernandes.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/kelcimarafernandes.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -394,7 +419,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/biiahevelin.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/biiahevelin.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -408,7 +433,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/renatasannthos.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/renatasannthos.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -422,7 +447,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/thiagofreitaspira.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/thiagofreitaspira.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -436,7 +461,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/vanessapolianarocha.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/vanessapolianarocha.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -450,7 +475,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/solange_da_saude.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/solange_da_saude.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -464,7 +489,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/gracaroquette.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/gracaroquette.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
@@ -478,7 +503,7 @@
 								</div>
 								<div class="slick-item d-flex gap-3">
 									<div class="image">
-										<img src="./assets/images/depoimentos/alinnerochanascimento.webp" width="150" height="150"
+										<img src="./assets/images/depoimentos/texto/alinnerochanascimento.webp" width="150" height="150"
 											alt="" loading="lazy">
 									</div>
 									<div class="text">
